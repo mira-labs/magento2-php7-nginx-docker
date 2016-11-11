@@ -7,4 +7,4 @@
 ## Run
 ### Example run instruction
 
-`docker run -d --name vcc -h virtualcabinet.com -v ~/Projects/vcc/:/var/www/html -p 8080:80 vcc`
+`docker run -d --name container_hostname -h hostname -v ~/Projects/vcc/:/var/www/html -p 8080:80 magento2-php7-nginx`
